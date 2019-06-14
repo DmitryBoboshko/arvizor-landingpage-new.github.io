@@ -1,0 +1,748 @@
+/*!
+Template :	AppsLand @by Softnio
+Preset   :	Default
+Version	 :	1.3.1
+Updated	 :	10.22.2018
+*/
+
+.active .steps h4, .heading span, .box-icon .fa, .box-icon .ti, .video-play, .video-play:hover, .video-play:focus, .owl-theme .owl-nav [class*=owl-], .single-features .ti, .single-features .fa, .contact-form h3, .contact-info h6 .fa, .footer-navigation li a:hover, .social-list li a:hover, .owl-theme .owl-nav [class*="owl-"]:hover, .footer-links li a:hover {
+	color:#ed355b;
+}
+
+.pricing-bottom .ti-check {
+	color: #00d578;
+}
+
+.pricing-bottom .ti-close {
+	color: #de0000;
+}
+
+.owl-theme .owl-dots .owl-dot span:after, .affix .navbar-default .navbar-toggle, .affix .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	border-color: #ed355b;
+}
+
+.primary-bg {
+	background: #1F65DB;
+}
+
+.secondary-bg {
+	background: #ED355B;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span, .affix .navbar-default .navbar-toggle, .affix .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background: #ed355b;
+}
+
+.button {
+	background: #ed355b;
+}
+
+.button:hover {
+	background: #fff;
+	color: #ed355b;
+}
+
+.ceo__button-holder .button {
+	background: #fff;
+	color: #ed355b;
+}
+
+.ceo__button-holder .button:hover {
+	background: #85009d;
+	color: #fff;
+
+}
+
+.header-texts .button {
+	background: #85009d;
+	color: #fff;
+}
+
+.header-texts .button:hover {
+	background: #fff;
+	color: #85009d;
+}
+
+.button.button-transparent {
+	background: transparent;
+}
+
+.button.button-transparent:hover {
+	background: #fff;
+	color: #FA3821;
+	border-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a.button, .navbar-default .navbar-nav>li>a.button:focus {
+	border: 2px solid #FA3821;
+	background: #FA3821;
+}
+
+.navbar-default .navbar-nav>li>a.button:hover {
+	color: #FA3821;
+}
+
+.affix .navbar-default .navbar-nav>li>a.button:hover, .affix .navbar-default .navbar-nav>li.active>a.button, .affix .navbar-default .navbar-nav>li.active>a.button:focus {
+	color: #FA3821;
+	border-color: #FA3821;
+}
+
+.gradiant-background, .box-icon, .team-member .team-photo:after {
+	background-image: -o-linear-gradient(0deg, #85009D 0%, #E22A90 75%, #F90334 100%);
+	background-image: linear-gradient(180deg, #85009D 0%, #E22A90 50%, #F90334 100%);
+}
+
+.meta-heading {
+	color: #1F65DB;
+	margin-bottom: 5px;
+}
+
+.feature-col .icon {
+	background: #F2F7FF;
+	color: #1F65DB;
+}
+
+.button.alt {
+	background: #fff;
+	color: #1F65DB;
+}
+
+.button.alt:hover {
+	background: #1F65DB;
+	color: #fff;
+}
+
+.button.light {
+	background: #F2F7FF;
+	color: #1F65DB;
+}
+
+.button.light:hover {
+	background: #00deec;
+	color: #fff;
+}
+
+.bg-circle .small, .bg-circle .big {
+	background: #F2F7FF;
+}
+
+.bg-circle .big:before {
+	background-image: -o-linear-gradient(157deg, #fff 0%, #ED355B 100%);
+	background-image: linear-gradient(157deg, #fff 0%, #ED355B 100%);
+}
+
+.bg-circle .big:after {
+	background-image: -o-linear-gradient(157deg, #fff 0%, #1F65DB 100%);
+	background-image: linear-gradient(157deg, #fff 0%, #1F65DB 100%);
+}
+
+.pricing-box.alt h5 {
+	color: #1F65DB;
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar-default .in .navbar-nav>li>a:hover, .navbar-default .in .navbar-nav>li>a:focus, .affix .navbar-default .navbar-nav>li>a:hover, .affix .navbar-default .navbar-nav>li>a:focus, .affix .navbar-default .navbar-nav>.active>a, .affix .navbar-default .navbar-nav>.active>a:hover, .affix .navbar-default .navbar-nav>.active>a:focus {
+		background: #ed355b;
+	}
+}
+
+.theme-pro .section.gradiant-background {
+	background: #ecf4fd;
+}
+
+.header-content .container {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.header-texts {
+	padding: initial;
+	flex-grow: 2;
+}
+
+.greek-head {
+	position: relative;
+}
+
+.header-content h1, .header-content h2, .header-content h3 {
+	display: block;
+	line-height: 1em;
+	color: #F2F2F2;
+}
+
+@media screen and (min-width: 1200px) {
+	.header-content h1 {
+		font-weight: 700;
+		font-size: 120pt;
+		margin-bottom: 25px;
+	}
+	.header-content h2 {
+		font-weight: 500;
+		font-size: 30pt;
+		margin-bottom: 10px;
+	}
+	.header-content h3 {
+		font-weight: 400;
+		font-size: 23.7pt;
+		margin-bottom: 50px;
+	}
+	.greek-head__pic {
+		height: 600px;
+		max-width: initial;
+	}
+	.txt-entry .button {
+		margin: 50px auto !important;
+	}
+	.box {
+		min-height: 315px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.header-content h1 {
+		font-weight: 700;
+		font-size: 100pt;
+	}
+	.header-content h2 {
+		font-weight: normal;
+		font-size: 26pt;
+	}
+	.header-content h3 {
+		font-weight: 300;
+		font-size: 20.5pt;
+		margin-bottom: 50px;
+	}
+	.greek-head__pic {
+		/* height: 600px; */
+		max-width: 400px;
+	}
+	.box {
+		min-height: 340px;
+	}
+	.flip-box{
+		width: 210px !important;
+		height: 210px !important;
+	}
+	.flip-box-back__title {
+		font-size: 1em !important;
+		margin-bottom: 0 !important;
+	}
+	.flip-box-back__text {
+		font-size: 0.8em !important;
+		font-weight: normal;
+	}
+	#aboutService .button {
+		width: 180px !important;
+	}
+	#news .item {
+		min-height: 510px !important;
+	}
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+	.header-content h1 {
+		font-weight: 700;
+		font-size: 135pt;
+		margin-bottom: 15px;
+	}
+	.header-content h2 {
+		font-weight: normal;
+		font-size: 38pt;
+		margin-bottom: 30px;
+	}
+	.header-content h3 {
+		font-weight: 300;
+		font-size: 18.4pt;
+		margin-bottom: 50px;
+	}
+	.greek-head__pic {
+		/* height: 600px; */
+		max-width: 380px;
+	}
+	.txt-entry p {
+		margin-top: 20px !important;
+	}
+	.box {
+		min-height: 290px;
+	}
+	#news .item {
+		min-height: 500px !important;
+	}
+}
+
+@media only screen and (max-width: 766px) {
+	.header-content .header-texts {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.header-content h1 {
+		/* display: inline-block; */
+		font-weight: 700;
+		font-size: 117pt;
+		text-align: center;
+	}
+	.header-content h2 {
+		/* display: inline-block; */
+		font-weight: normal;
+		font-size: 32pt;
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	.header-content h3 {
+		font-weight: 300;
+		font-size: 24.7pt;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	.greek-head__pic {
+		display: none;
+		/* height: 600px; */
+		/* max-width: 380px; */
+	}
+	.flip-box-back__title {
+		font-size: 1.2em !important;
+		/* margin-bottom: 0 !important; */
+	}
+	.flip-box-back__text {
+		font-size: 1em !important;
+		font-weight: normal;
+	}
+	#news .item {
+		min-height: 500px !important;
+	}
+	#bonus .txt-entry {
+		margin-top: 20px;
+	}
+	.contact-form {
+		max-width: 90vw !important;
+	}
+}
+
+.box-icon {
+	background: initial !important;
+	height: 100px !important;
+	width: 100px !important;
+	margin-bottom: 25px;
+}
+
+.box {
+	padding-bottom: 15px;
+}
+
+.box h4 {
+	font-size: 22px !important;
+	padding-top: 0 !important;
+	font-weight: 600;
+}
+
+.box p {
+	font-weight: normal;
+}
+
+.box p, h4 {
+	margin: 5px 20px 0 20px;
+}
+
+.txt-entry .button {
+	display: block;
+	max-width: 300px;
+	margin: auto;
+	/* margin-top: 50px; */
+	/* margin-bottom: 50px; */
+}
+
+.txt-entry p {
+	font-size: 24px !important;
+	font-weight: normal;
+}
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.flip-box {
+	position: relative;
+	background-color: transparent;
+	width: 230px;
+	height: 230px;
+	/* border: 1px solid #f1f1f1; */
+	perspective: 1000px;
+	/* Remove this if you don't want the 3D effect */
+	margin-bottom: 30px;
+}
+
+/* This container is needed to position the front and back side */
+
+.flip-box-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/* margin: 15px; */
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-box:hover .flip-box-inner {
+	transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+
+.flip-box-front, .flip-box-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	backface-visibility: hidden;
+}
+
+/* Style the front side */
+
+.flip-box-front {
+	background-color: #fff;
+	color: black;
+}
+
+/* Style the back side */
+
+.flip-box-back {
+	background-color: #f90334;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+.flip-box-front__icon {
+	height: 100px;
+	width: 100px;
+	/* margin-top: 25px; */
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-bottom: 20px; */
+}
+
+.flip-box-front__icon .ti {
+	font-size: 6em;
+	color: #ED355B;
+}
+
+.flip-box-front__title {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 15px;
+	font-size: 1.5em;
+	font-weight: 500;
+	color: #666666;
+}
+
+.flip-box-back__title {
+	/* margin: 15px 0 10px 0; */
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: white;
+}
+
+.flip-box-back__text {
+	font-weight: 400;
+	padding: 0 15px 0 15px;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+}
+
+.flip-box-back .button {
+	color: #666666;
+	background: white;
+	width: 200px;
+	line-height: 2.5em;
+	padding: 0 15px 0 15px;
+}
+
+.flip-box-back .button:hover {
+	color: white;
+	background: #666666;
+}
+
+.features-content {
+	/* background-color: #00deec; */
+	margin: 0px 0px 60px 0px;
+}
+
+.features-content .row {
+	justify-content: space-evenly;
+	margin: initial;
+	padding: initial;
+}
+
+.features-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: initial;
+	margin-top: 15px;
+	margin-bottom: 30px !important;
+}
+
+.section-head {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.flip-box-front {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.flip-box-back {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.section-head {
+	padding: initial;
+	/* margin: 40px 0 30px 0; */
+}
+
+.section-head h2 {
+	font-size: 3em;
+	margin: 30px auto;
+}
+
+.section-head h2 span {
+	color: #FA3821;
+}
+
+.section-head .row {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.button-holder {
+	margin-bottom: 10px;
+}
+
+.heading {
+	margin-bottom: 20px !important;
+}
+
+#news .item {
+	background-color: #fff;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 0 12px 0 rgba(2,3,3,.06);;
+	box-shadow: 0 0 12px 0 rgba(2,3,3,.06);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* align-content: stretch; */
+	align-items: center;
+	min-height: 450px;
+	padding: 30px;
+	margin: 10px;
+}
+
+#news h3 {
+	/* margin: auto 0; */
+	color: #666666;
+	font-size: 22pt;
+}
+
+#news p {
+	font-size: 14pt;
+	/* font-weight: normal; */
+	margin: 0 15px 15px 15px;
+}
+
+.item__img-holder {
+	height: 150px;
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+#news img {
+	vertical-align: middle;
+	height: auto;
+	min-height: 150px;
+	width: 400px;
+}
+
+.item__header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 80px;
+}
+
+.item__header h3 {
+    font-weight: 500;
+}
+
+.quote-icon {
+	width: 40px !important;
+	margin-bottom: 20px !important;
+}
+
+.quotes h6 {
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	color: #FA3821;
+}
+
+.quotes h6:hover {
+	color: #1F65DB;
+}
+
+.quotes blockquote {
+	font-size: 0.9em;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+#bonus .txt-entry {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* height: 375px; */
+}
+
+#bonus .txt-entry a {
+	margin: 20px;
+}
+
+#bonus, #bonus .heading span {
+	color: white;
+}
+
+.partners__partners-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.partners__header {
+	margin: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.ceo-section .section-head h2, .ceo__hello {
+	color: white !important;
+}
+
+.ceo__hello {
+	font-size: 1.9em;
+    font-weight: 400;
+}
+
+.ceo-section {
+	color: white;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.ceo-section a {
+	color: inherit;
+}
+
+.ceo-section a:hover {
+	color: #FA3821;
+}
+
+.ceo-section em {
+	font-size: 0.9em;
+}
+
+.ceo__video-section {
+	margin: 30px 0;
+}
+
+.ceo__video-section p {
+	margin: 20px 0;
+}
+
+.about__video, .howWorks__video, .bonus__video, .ceo__video-section__video {
+	position: relative;
+	/* padding-top: 25px; */
+	height: 350px;
+}
+
+.about__video iframe, .howWorks__video iframe, .bonus__video iframe, .ceo__video-section__video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ceo__ceo-img {
+	width: 460px;
+}
+
+.ceo__button-holder {
+	margin: 30px 0;
+	display: flex;
+	justify-content: center;
+}
+
+#contact-form .button {
+	margin: 25px 0 0 0;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0 0 20px 0;
+	padding: initial;
+}
+
+.contact-form {
+	max-width: 750px;
+	width: 550px;
+	min-height: 450px;
+}
+
+.contact-form__forms {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#contacts .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-field {
+	margin-bottom: 10px;
+}
+
+#contacts .section-head {
+	margin-bottom: 10px;
+}
+
+.news-link {
+	color: #666666;
+}
+
+.news-link:hover {
+	color: #ed355b;
+}
